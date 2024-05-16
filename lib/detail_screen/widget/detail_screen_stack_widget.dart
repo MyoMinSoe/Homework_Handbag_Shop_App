@@ -43,7 +43,7 @@ class _DetailScreenStackWidgetState extends State<DetailScreenStackWidget> {
             ),
           ),
           margin: EdgeInsets.only(top: widget.height * 0.27),
-          height: widget.height * 0.55,
+          height: widget.height * 0.5,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -53,7 +53,7 @@ class _DetailScreenStackWidgetState extends State<DetailScreenStackWidget> {
                   index: widget.index),
               //Hand Bag About Text Widget*************************
               Container(
-                  height: widget.height * 0.2,
+                  height: widget.height * 0.15,
                   padding: const EdgeInsets.symmetric(
                     vertical: 30,
                   ),
